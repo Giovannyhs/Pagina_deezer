@@ -3,7 +3,7 @@
 }
 .menu {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   position: relative;
   top: 20px;
 
@@ -17,14 +17,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-
     color: #fff;
     width: 250px;
     height: 90px;
     border-radius: 10px;
     border: 1px solid #ffffff7c;
     position: relative;
-    right: 150px;
+    margin-left: 50px;
     text-decoration: none;
   }
   .btn-2 {
@@ -38,14 +37,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
     color: #fff;
     width: 150px;
     height: 40px;
     border-radius: 50px;
     border: 1px solid #ffffff7c;
     position: relative;
-    left: 150px;
+    margin-right: 50px;
     text-decoration: none;
   }
 }
@@ -161,7 +159,7 @@ section {
     display: flex;
     justify-content: center;
     background-color: aqua;
-    width: 6git0px;
+    width: 60px;
     border-radius: 25px;
     position: absolute;
     right: 10px;
@@ -241,5 +239,143 @@ section {
   .deezer-btn-4 {
     background: none;
     color: #fff;
+  }
+  .dezeer-box-3 {
+    margin-top: 670px;
+  }
+  .box-3-btn-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: #000;
+    color: #fff;
+    width: 600px;
+    height: 170px;
+    border-radius: 25px;
+    text-decoration: none;
+  }
+  .tigo {
+    width: 20px;
+    height: 20px;
+    background: #000;
+  }
+  .aos {
+    display: flex;
+    background: #383737;
+    color: #fff;
+    width: 300px;
+    border-radius: 50px;
+    padding: 20px 20px;
+    justify-content: center;
+  }
+  .aos:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  .dezeer-box-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    background: #000;
+    position: absolute;
+    top: 1600px;
+    color: #fff;
+    border-radius: 25px;
+    justify-content: space-around;
+  }
+  .dezeer-box-4 h3 {
+    position: relative;
+    margin-top: 0px;
+    font-size: 40px;
+    background: none;
+  }
+  .dezeer-box-4 p {
+    position: relative;
+    margin-top: -50px;
+    background: none;
+  }
+  .tarjeta {
+    width: 300px;
+    height: 250px;
+    background: none;
+  }
+  .box-4-btn-1 {
+    display: flex;
+    background: #383737;
+    color: #fff;
+    width: 300px;
+    border-radius: 50px;
+    padding: 20px 20px;
+    justify-content: center;
+    text-decoration: none;
+  }
+  .box-4-btn-1:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  .box-4-btn-2 {
+    background: none;
+    color: #fff;
+    text-decoration: none;
+  }
+  .dezeer-box-4 h4 {
+    display: flex;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 600px;
+    font-size: 12px;
+    line-height: 25px;
+  }
+  .imagenes {
+    display: flex;
+    position: relative;
+    top: 500px;
+  }
+  .imagen1 {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    margin-right: 25px;
+  }
+  .imagen2 {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+  }
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 1100px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+  .link-1 {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    line-height: 50px;
+    justify-content: space-between;
+  }
+  .link {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+  }
+  .link a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .lista {
+    list-style-type: none;
   }
 }
