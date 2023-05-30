@@ -446,7 +446,9 @@ section {
 .dezeer-box-4 .linea {
   width: 100vw;
   height: 1px;
-  background: #ffffff70;
+  background: #ffffff1f;
+  position: absolute;
+  top: 900px;
 }
 .imagenes {
   display: flex;
